@@ -20,4 +20,15 @@ def run
 	end
 end
 
+def run_v2
+	(1..1000).each {|num|
+	  msg = ''
+	  msg += 'Super' if(num % 7 == 0)
+	  msg += 'Fizz' if(num % 3 == 0)
+	  msg += 'Buzz' if(num % 5 == 0)
+	  puts (msg.empty? ? num : msg);
+	}
+end
+
 run()
+run_v2()
