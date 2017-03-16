@@ -30,5 +30,5 @@ def run_v2
 	}
 end
 
-run()
-run_v2()
+run() # Time elapsed 3.3019999999999996 milliseconds
+run_v2() # Time elapsed 5.065 milliseconds
