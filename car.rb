@@ -1,6 +1,3 @@
-require 'pry'
-
-
 class Car
   attr_accessor :color, :wheel_count
 
