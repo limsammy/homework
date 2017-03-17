@@ -1,3 +1,4 @@
+class FizzBuilder
 def run
 	(0..1000).each do |num|
 		if(num % 3 == 0 && num % 5 == 0 && num % 7 == 0)
@@ -28,6 +29,7 @@ def run_v2
 	  msg += 'Buzz' if(num % 5 == 0)
 	  puts (msg.empty? ? num : msg);
 	}
+end
 end
 
 run() # Time elapsed 3.3019999999999996 milliseconds
