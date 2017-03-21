@@ -5,10 +5,6 @@ class Calculator
     @total = total
   end
 
-  def exist?
-    true
-  end
-
   def add(num)
     @total += num
     num

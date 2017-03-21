@@ -1,12 +1,12 @@
 gem 'minitest', '~> 5.0'
 require 'minitest/autorun'
 require 'minitest/pride'
-require './lib/calc'
+require '../lib/calc'
 
 class CalculatorTest < Minitest::Test
   def test_it_exists
     calc = Calculator.new
-    assert calc.exist?
+    assert_equal "Calculator", calc.class.to_s
   end
 
   def test_add_1
